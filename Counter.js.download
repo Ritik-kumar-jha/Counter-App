@@ -1,0 +1,14 @@
+function btnPlus_Click(){
+       var no1= document.getElementById('txtNo');
+       no1.value=parseInt(no1.value)+1
+       IncrementDecrement(no1);
+ }
+ function btnMinus_Click(){
+        var no1=document.getElementById('txtNo');
+        no1.value=parseInt(no1.value)-1;
+        IncrementDecrement(no1);
+ }
+ // Normal Function
+ function IncrementDecrement(){
+        
+ }
